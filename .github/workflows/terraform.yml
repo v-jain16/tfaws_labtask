@@ -3,6 +3,9 @@ name: Deploy Infrastructure
 on:
   push
 
+env:
+  GITHUB_TOKEN: ${{ secrets.PAT_GITHUB_TOKEN }}
+
 jobs:
   build:
     name: Deploy TF
