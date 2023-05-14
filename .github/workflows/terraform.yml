@@ -4,7 +4,7 @@ on:
   push
 
 jobs:
-  deploy_tf:
+  build:
     name: Deploy TF
     runs-on: ubuntu-latest
     steps:
